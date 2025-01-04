@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AuthSystem.Models
 {
-    public class PasswordResetTokens
+    public class PasswordResetToken
     {
-        public PasswordResetTokens() 
+        public PasswordResetToken() 
         {
             this.ExperationTime = DateTime.Now.AddMinutes(5); 
         }
